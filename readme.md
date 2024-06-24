@@ -79,3 +79,23 @@ Project Structure: 1. Backend (server side scripting) 2. Frontend (client side s
      -> UpdateTaskData
    - mypages
      -> TaskList
+
+----------------------- IMAGES -------------------
+
+### Home Screen : getting all the task list
+![1_TaskList](https://github.com/saurabh-kumar-coder/Mobile-Task-Management-Application/assets/26488830/f35438f1-2165-408b-8bb1-096a2ed874b5)
+
+### Creating a task
+![2_CreateTask](https://github.com/saurabh-kumar-coder/Mobile-Task-Management-Application/assets/26488830/9f1d6624-3b17-46dd-9c4a-5f5bb14e0aad)
+
+### Getting a single task
+![3_GettingSingleTask](https://github.com/saurabh-kumar-coder/Mobile-Task-Management-Application/assets/26488830/c6e131e7-5b27-478b-bc7f-b0ef2b458ed7)
+
+### Updating a particular task
+![4_UpdateScreen](https://github.com/saurabh-kumar-coder/Mobile-Task-Management-Application/assets/26488830/a43659ec-fa5a-46ec-a76f-2a67c00a2a54)
+
+### Marking a task as complete
+![5_MarkCompleted](https://github.com/saurabh-kumar-coder/Mobile-Task-Management-Application/assets/26488830/604be85b-ccc1-4049-9eb3-e20341822a3f)
+
+### Deleting as task
+![6_TaskHelloWorldDELETED](https://github.com/saurabh-kumar-coder/Mobile-Task-Management-Application/assets/26488830/5c1f56b5-cbee-49fa-a68d-56d2632c96d5)
