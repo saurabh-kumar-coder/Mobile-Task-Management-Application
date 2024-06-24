@@ -97,5 +97,5 @@ Project Structure: 1. Backend (server side scripting) 2. Frontend (client side s
 ### Marking a task as complete
 ![5_MarkCompleted](https://github.com/saurabh-kumar-coder/Mobile-Task-Management-Application/assets/26488830/604be85b-ccc1-4049-9eb3-e20341822a3f)
 
-### Deleting as task
+### Deleting as task : (First record is deleted.)
 ![6_TaskHelloWorldDELETED](https://github.com/saurabh-kumar-coder/Mobile-Task-Management-Application/assets/26488830/5c1f56b5-cbee-49fa-a68d-56d2632c96d5)
