@@ -88,7 +88,13 @@ const getParticularTask = async (req, res) => {
 	try {
 		console.log("getParticularTask");
 		const task = await taskModel.findById(id);
-		res.send({
+		if (!task) {
+			res.status(400).send({
+				success: false,
+				message: "task not found",
+			});
+		}
+		res.status(200).send({
 			success: true,
 			task: task,
 		});
@@ -96,8 +102,6 @@ const getParticularTask = async (req, res) => {
 		res.send({
 			success: false,
 			message: "could not connect",
-			title: title,
-			description: description,
 		});
 		console.log(error);
 	}
@@ -117,6 +121,12 @@ const updateParticularTask = async (req, res) => {
 			},
 			{ new: true }
 		);
+		if (!task) {
+			res.status(400).send({
+				success: false,
+				message: "task not found",
+			});
+		}
 		res.send({
 			success: true,
 			task: task,
