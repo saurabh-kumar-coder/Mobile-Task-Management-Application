@@ -44,3 +44,38 @@
 
 running frontend : npm start
 running backend : npm run start
+
+---
+
+ABOUT:
+Performing a CRUD operation using react native as frontend, Node js as a Backend and MongoDb as a database.
+
+node -v : v18.20.3
+npm -v : v10.7.0
+Project Structure: 1. Backend (server side scripting) 2. Frontend (client side scripting)
+
+1. Backend:
+   - Configure the .env file. Enter your configuration about mongodb server and port in which you want to run the project.
+   - models: taskSchema with perperties such as title, description, completed
+   - routes: assigning the request type and the path for each API.
+   - controllers: controllers created as follows
+     -> addTaskController : add a task
+     -> getTaskController : get tasks
+     -> updateCompleted : updated if task is completed or not
+     -> getParticularTask : getting a single task
+     -> updateParticularTask : updating data in a particular task
+     -> deleteController : deleting a task.
+   - config: configuring Database related information.
+2. Frontend:
+   - dependencies :
+     -> axios
+     -> @react-native-community/async-storage
+     -> @rneui/themed
+     -> etc..
+   - mycomponents :
+     -> CreateNewTask
+     -> DeleteTask
+     -> GetAllTask
+     -> UpdateTaskData
+   - mypages
+     -> TaskList
